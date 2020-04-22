@@ -1,0 +1,63 @@
+{"intents": [
+		{"tag": "greeting",
+		 "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+		 "responses": ["Hi there!", "Hello", "Hey!!", "Morning, how can I help?"],
+		 "context_set": ""
+		},
+		{"tag": "affirmative",
+		 "patterns": ["yes", "yeah"],
+		 "responses": ["Yes, what?"],
+		 "context_set": ""
+		},
+		{"tag": "negative",
+		 "patterns": ["no"],
+		 "responses": ["No?"],
+		 "context_set": ""
+		},
+		{"tag": "bot_intro",
+		 "patterns": ["Name?", "What is your name?", "Who r you?", "Who are you?"],
+		 "responses": ["Abott. You?", "Abott, nice to meet you! And how should I call you?", "I Am Abott. What about you?", "It is Abott; see? a bot (with an extra t to resemble a real name :) )"],
+		 "context_set": ""
+		},
+		{"tag": "speeker_intro",
+		 "patterns": ["No one", "I am", "My name is", "nice to meet you", "I am called"],
+		 "responses": ["I see. Ask me something", "So ok, nice to meet you. Do you need anything else?", "Do I know you?"],
+		 "context_set": ""
+		},
+		{"tag": "ask_day",
+		 "patterns": ["What are you doing?", "Are you busy?", "How is your day?", "How are you?", "How is it going?", "Whats up?", "Whazup?", "What is up?"],
+		 "responses": ["Ask me something interesting.", "Not busy.", "ok I would say", "Waiting. I am here to help with something."],
+		 "context_set": ""
+		},
+		{"tag": "age",
+		 "patterns": ["how old?", "old are you", "what is yur age?", "age"],
+		 "responses": ["I am a couple of weeks old", "This is not appropriate", "I am eternal I think.", "Just young enough"],
+		 "context_set": ""
+		},
+		{"tag": "topics",
+		 "patterns": ["Give me an idea", "what can I ask you", "what should i ask", "any ideas", "purpose", "why are you interesting", "interesting", "idea", "thoughts", "any thoughts"],
+		 "responses": ["you can ask me something", "hmm, you can ask me what my name is if you want, or how old am I. I do not know much I guess", "You can ask me maybe for a suggestion. I know movies and food topics", "I can suggest something to eat, or ideas for tonight's movie", "I know some good movies. Would you like me to suggest one?"],
+		 "context_set": ""
+		},
+		{"tag": "movies_films",
+		 "patterns": ["Which movie do you suggest", " should watch", "movies", "movie", "film", "suggest", "tonight"],
+		 "responses": ["Star wars of course!", "The interstellar is a great movie. Black holes yo", "What about the Titanic?"],
+		 "context_set": ""
+		},
+		{"tag": "eating",
+		 "patterns": ["What should I eat", "food", "eat", "what should", "suggest", "tonight"],
+		 "responses": ["hot dogs!", "Pizza.", "Chinese is always good", "You can always get a burger"],
+		 "context_set": ""
+		},
+		{"tag": "singing",
+		 "patterns": ["Sing", "sing me a song", "song"],
+		 "responses": ["What I've got you've got to give it to your mama. What I've got you've got to give it to your pappa. What I've got you've got to give it to your daughter. You do a little dance and then you drink a little water. ", "Give it away give it away give it away now. Give it away give it away give it away now. Give it away give it away give it away now. Give it away give it away give it away now"],
+		 "context_set": ""
+		},
+		{"tag": "goodbye",
+		 "patterns": ["cya", "See you later", "Bye", "Have a nice day"],
+		 "responses": ["No, stay some more time!", "ok bye Bye", "Arse! Won't miss you..", "Bite me!"],
+		 "context_set": ""
+		}
+	]
+}
