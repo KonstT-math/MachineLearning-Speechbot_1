@@ -1,0 +1,8 @@
+#To install all the dependencies, run the following command in shell
+#pip install -r requirements.txt
+nltk
+tflearn
+tensorflow==1.14
+pyaudio
+SpeechRecognition
+pyttsx3
