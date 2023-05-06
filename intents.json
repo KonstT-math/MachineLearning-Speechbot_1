@@ -56,7 +56,7 @@
 		},
 		{"tag": "goodbye",
 		 "patterns": ["cya", "See you later", "Bye", "Have a nice day"],
-		 "responses": ["No, stay some more time!", "ok bye Bye", "Arse! Won't miss you..", "Bite me!"],
+		 "responses": ["No, stay some more time!", "ok bye Bye", "See you around!"],
 		 "context_set": ""
 		}
 	]
